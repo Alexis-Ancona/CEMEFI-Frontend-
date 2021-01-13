@@ -1,0 +1,1435 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	position: absolute;
+	width: 1920px;
+	height: 1271px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#logo_cemefi {
+	position: absolute;
+	width: 197px;
+	height: 142px;
+	left: 185px;
+	top: 59px;
+	overflow: visible;
+}
+#Inicio {
+	left: 534px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	line-height: 34px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.0125px;
+	border-bottom: #E88A19 solid 1px;
+}
+.navtab {
+	/* color: black; */
+	text-decoration: none;
+	color:#000000;
+}
+#Estadsticas {
+	left: 664px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	line-height: 34px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.0125px;
+}
+#Iniciar_Sesin {
+	left: 862px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	line-height: 34px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: nunito, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.0125px;
+}
+#Rectngulo_1 {
+	fill: rgba(232,232,232,1);
+	z-index: -1;
+}
+.Rectngulo_1 {
+	position: absolute;
+	overflow: visible;
+	width: 596px;
+	height: 68px;
+	left: 1060px;
+	top: 96px;
+}
+
+#search-icon {
+	position: absolute;
+	width: 41.36px;
+	height: 41.36px;
+	left: 1078.76px;
+	top: 108.94px;
+	overflow: visible;
+}
+#Elipse_1 {
+	fill: rgba(234,133,22,1);
+}
+.Elipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 55.46px;
+	height: 55.46px;
+	left: 1676.54px;
+	top: 102px;
+}
+#outline_mail_outline_white_18d {
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	left: 1688px;
+	top: 114px;
+	overflow: visible;
+}
+#Directorio_de_Instituciones_Fi {
+	left: 382px;
+	top: 278px;
+	position: absolute;
+	overflow: visible;
+	width: 1139px;
+	white-space: nowrap;
+	line-height: 65px;
+	margin-top: -9px;
+	text-align: center;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.025px;
+}
+#Llene_los_campos_con_la_inform {
+	left: 415px;
+	top: 355px;
+	position: absolute;
+	overflow: visible;
+	width: 1090px;
+	white-space: nowrap;
+	line-height: 62px;
+	margin-top: -30px;
+	text-align: center;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	color:#696969;
+}
+#ORGANIZACIONES_DE_LA_SOCIEDAD_ {
+	left: 607px;
+	top: 428px;
+	position: absolute;
+	overflow: visible;
+	width: 763px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(105,105,105,1);
+}
+#chart {
+	position: absolute;
+	width: 36.923px;
+	height: 40px;
+	left: 556px;
+	top: 415px;
+	overflow: visible;
+}
+#Rectngulo_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectngulo_2 {
+	filter: drop-shadow(0px 3px 20px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 1651px;
+	height: 174px;
+	left: 156px;
+	top: 522px;
+}
+#Ms_Criterios {
+	left: 1249px;
+	top: 547px;
+	position: absolute;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#Nombre {
+	left: 210px;
+	top: 547px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#RFC {
+	left: 585px;
+	top: 548px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#Ubicacin {
+	left: 980px;
+	top: 547px;
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#Nombre_de_la_organizacin {
+	left: 210px;
+	top: 587px;
+	position: absolute;
+	overflow: visible;
+	width: 241px;
+	white-space: nowrap;
+	line-height: 23px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(186,186,186,1);
+	letter-spacing: 0.01600000023841858px;
+}
+#Registro_Federal_del_Contribuy {
+	left: 585px;
+	top: 580px;
+	position: absolute;
+	overflow: visible;
+	width: 313px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	color: black;
+	letter-spacing: 0.01600000023841858px;
+}
+#Edo_Alcalda_o_mpio {
+	left: 980px;
+	top: 587px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	line-height: 23px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(186,186,186,1);
+	letter-spacing: 0.01600000023841858px;
+}
+#Ms_Criterios_de_Bsqueda {
+	left: 1247px;
+	top: 587px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	line-height: 23px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(186,186,186,1);
+	letter-spacing: 0.01600000023841858px;
+}
+.Ms_Criterios_de_Bsqueda{
+	left: 1235px;
+	top: 580px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	line-height: 23px;
+	margin-top: -1.5px;
+	text-align: center;
+	font-family: nunito,sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	letter-spacing: 0.01600000023841858px;
+	z-index: 2;
+}
+#Modal-Footer-Close-Button{
+	border-radius: 50px;
+	margin-right:150px;
+	background-color: #EF7100;
+	width: 400px;
+	height: 70px;
+}
+#hacergrande{
+	height: 100px;
+}
+#letragrande{
+	font-size: 30px;
+	font-family: nunito;
+	position: absolute;
+	right:220px;
+	color:white;
+	bottom: 32px;
+}
+/*Cambia el tamaño del modal*/
+div#modal1.modal.open{
+	background-color: white;
+	border-radius: 50px;
+	margin-left: 8%;
+	width: 1518px;
+	height: 937px;
+}
+#Model-Header-Title{
+	font-family: nunito;
+	font-size: 25px;
+	height: 34px;
+	font-weight: bold;
+
+}
+.Modal-Text-Input{
+	background-color: white;
+	border: solid 1px white;
+	border-radius: 20px;
+	box-shadow: 0px,3px,20px,#00000029;
+	height:70px;
+	border-spacing: 10px;
+}
+
+.Modal-Input-Title{
+	background-color: white;
+	font-family: nunito;
+	font-size: 30px;
+	color:black;
+	font-weight: bold;
+	 
+}
+
+.btn {
+    text-transform: none !important;
+}
+
+.no-uppercase {
+	text-transform: none;
+}
+#Criterios-Modal{
+	color: #bebebe;
+	font-size: 20px;
+	z-index: 2;
+	font-family: nunito;
+
+}
+#Elipse_2 {
+	fill: rgba(239,113,0,1);
+}
+.Elipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	height: 86px;
+	left: 1644px;
+	top: 536px;
+}
+#search-icon-white {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1663px;
+	top: 555px;
+	overflow: visible;
+}
+#Lnea_1 {
+	fill: transparent;
+	stroke:  rgb(201, 199, 199);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Lnea_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 69px;
+	left: 1223.32px;
+	top: 544.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Lnea_2 {
+	fill: transparent;
+	stroke:  rgb(201, 199, 199);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Lnea_2 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 69px;
+	left: 954.81px;
+	top: 544.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Lnea_3 {
+	fill: transparent;
+	stroke: rgb(201, 199, 199);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Lnea_3 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 69px;
+	left: 562.8px;
+	top: 544.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Si_su_organizacin_no_aparece_e {
+	left: 306px;
+	top: 757px;
+	position: absolute;
+	overflow: visible;
+	width: 1285px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(112,112,112,1);
+}
+#Aviso_de_privacidad {
+	left: 79.891px;
+	top: 1114.986px;
+	position: absolute;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: white;
+	text-decoration: white !important;
+	z-index: 1;
+}
+#Preguntas_Frecuentes {
+	left: 79.877px;
+	top: 1154.986px;
+	position: absolute;
+	overflow: visible;
+	width: 197px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	z-index: 1;
+}
+#_Cemefi_2021 {
+	left: 79.916px;
+	top: 1194.986px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	z-index: 1;
+}
+#waves_bb {
+	fill: url(#waves_bb);
+}
+.waves_bb {
+	overflow: visible;
+	position: absolute;
+	width: 1126px;
+	height: 393.423px;
+	left: 794px;
+	top: 899.577px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#waves2_bd {
+	opacity: 0.71;
+	fill: url(#waves2_bd);
+}
+.waves2_bd {
+	overflow: visible;
+	position: absolute;
+	width: 1316.229px;
+	height: 365.352px;
+	left: 0px;
+	top: 905.648px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#waves3_bf {
+	opacity: 0.7;
+	fill: url(#waves3_bf);
+}
+.waves3_bf {
+	overflow: visible;
+	position: absolute;
+	width: 603.77px;
+	height: 278.778px;
+	left: 1316.23px;
+	top: 991.222px;
+	transform: matrix(1,0,0,1,0,0);
+}
+
+#formulario{
+	margin-left: 1130px;
+	margin-top: 90px;
+	width: 715px;
+	z-index: 1;
+	position:relative;
+}
+#formulario_nombre{
+	margin-left: 200px;
+	margin-top: 386px;
+	width: 800px;
+	z-index: 1;
+	position:relative;
+}
+#formulario_RFC{
+	margin-left: 575px;
+	margin-top: -250px;
+	width: 1000px;
+	z-index: 1;
+	position:relative;
+}
+#formulario_Ubicacion{
+	margin-left: 968px;
+	margin-top: -150px;
+	width: 600px;
+	z-index: 0;
+	position:relative;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+  }
+.row .input-field input:focus {
+	border-bottom: 1px solid rgba(239,113,0,1) !important;
+	box-shadow: 0 1px 0 0 rgba(239,113,0,1) !important
+}
+.row .input-field .search input:focus {
+	border-bottom: 1px solid #E8E8E8 !important;
+	box-shadow: 0 1px 0 0 #E8E8E8 !important
+}
+
+
+
+/*Objetos Formulario 1*/
+#Rectngulo_1_Formulario_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+/* Rectángulo de Siglas*/
+.Rectngulo_1_Formulario_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: relative;
+	overflow: visible;
+	width: 630px;
+	height: 134px;
+	left: 51px;
+	top: 70px;
+}
+#Rectngulo_2_Formulario_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+/*Rectángulo CB "Forma parte del Cemefi: Socio*/
+.Rectngulo_2_Formulario_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 108px;
+	left: 160px;
+	top: 550px; /*Aumenta para bajar*/
+}
+#Siglas_Formulario_1 {
+	left: 51px;
+	top: 50px;
+	position: relative;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#Siglas{
+	position:relative;
+	right:550px;
+	width:500px;
+	top:-20px;
+	border-bottom: solid 3px white;
+}
+#Rectngulo_3_Formulario_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+/* Rectángulo de Figura Jurídica*/
+.Rectngulo_3_Formulario_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: relative;
+	overflow: visible;
+	width: 630px;
+	height: 134px;
+	left: 727px;
+	top: -169px; /*Aumenta para subir*/
+}
+#Figura_Jurdica_Formulario_1 {
+	left: 727px;
+	top: -145px;
+	position: relative;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#Select-FiguraJuridica{
+	width: 520px;
+	border:solid 1px white;
+	background-color: white;
+	position:relative;
+	top: -110px;
+	right:-750px;
+	z-index: 1;
+}
+#Rectngulo_4_Formulario_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+/* Rectángulo de Naturaleza*/
+.Rectngulo_4_Formulario_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: relative;
+	overflow: visible;
+	width: 630px;
+	height: 134px;
+	left: 50px;
+	top: -220px;
+}
+#Naturaleza_de_la_insitucin_Formulario_1 {
+	left: 50px;
+	top: -200px; /*Aumenta para subr*/
+	position: relative;
+	overflow: visible;
+	width: 293px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#Select-Naturaleza{
+	width: 520px;
+	border:solid 1px white;
+	background-color: white;
+	position:relative;
+	top: -160px;
+	right:-75px; 
+	z-index: 1;
+}
+#Tipo_de_donante_Formulario_1 {
+	left: 726px;
+	top: -420px;
+	position: relative;
+	overflow: visible;
+	width: 183px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#Select-Donante{
+	width: 520px;
+	border:solid 1px white;
+	background-color: white;
+	position:relative;
+	top: -380px;
+	right:-750px; 
+	z-index: 1;
+}
+#Rectngulo_5_Formulario_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+/* Rectángulo de Tipo de donante*/
+.Rectngulo_5_Formulario_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: relative;
+	overflow: visible;
+	width: 630px;
+	height: 134px;
+	left: 727px;
+	top: -440px;
+}
+#Lnea_1_Formulario_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Lnea_1_Formulario_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1400px;
+	height: 3px;
+	left: 50.5px;
+	top: 500px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Forma_parte_del__Cemefi_Socio_Formulario_1 {
+	left: 230px;
+	top: 545px; /*Baja para subir*/
+	position: absolute;
+	overflow: visible;
+	width: 183px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_6_Formulario_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+/*"Afiliado*/
+.Rectngulo_6_Formulario_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 108px;
+	left: 469px;
+	top: 486px;
+}
+#Forma_parte_del_Cemefi_Afiliad_Formulario_1 {
+	left: 539px;
+	top: 477px;
+	position: absolute;
+	overflow: visible;
+	width: 176px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_7_Formulario_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+/*"No forma parte"*/
+.Rectngulo_7_Formulario_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 108px;
+	left: 790px;
+	top: 486px;
+}
+#No_forma_parte_del_Cemefi_Formulario_1 {
+	left: 856px;
+	top: 494px;
+	position: absolute;
+	overflow: visible;
+	width: 296px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_8_Formulario_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+/*Donataría*/
+.Rectngulo_8_Formulario_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 108px;
+	left: 145px;
+	top: 602px;
+}
+#Donataria_Autorizada_Formulario_1 {
+	left: 215px;
+	top: 610px;
+	position: absolute;
+	overflow: visible;
+	width: 235px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_9_Formulario_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+/*Cluni*/
+.Rectngulo_9_Formulario_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 108px;
+	left: 469px;
+	top: 602px;
+}
+#Cuenta_con_Cluni_Formulario_1 {
+	left: 539px;
+	top: 610px;
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_10_Formulario_1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+/*AIT*/
+.Rectngulo_10_Formulario_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 108px;
+	height: 108px;
+	left: 790px;
+	top: 602px;
+}
+#Acreditacin_en_Institucionalid_Formulario_1 {
+	left: 856px;
+	top: 584px;
+	position: absolute;
+	overflow: visible;
+	width: 362px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+/*Modifica variables del checkbox antes del click*/
+.mod.filled-in[type="checkbox"]+span:not(.lever):after{border-radius:10px; background-color:transparent; border-color: transparent; width:48px; height:48px;
+}
+/*Modifica variables de la flecha antes del click*/
+.mod.filled-in[type="checkbox"]+span:not(.lever):before{
+  background-color: transparent;
+  border-color: transparent;
+}
+/*Modifica variables del checkbox después del click*/
+.mod.filled-in[type="checkbox"]:checked+span:not(.lever):after{top:0;width:48px;height:48px;border:2px solid #EF7100;background-color:#EF7100;z-index:0}
+
+#CB-Cemefi{
+	position:absolute;
+	left:149px;
+	top:550px;
+	z-index: 1;
+}
+#CB-Afiliado{
+	position:absolute;
+	left:473px;
+	top:550px;
+	z-index: 1;
+}
+#CB-No-Cemefi{
+	position:absolute;
+	left:795px;
+	top:550px;
+	z-index: 1;
+}
+#CB-Donataria{
+	position:absolute;
+	left:149px;
+	top:668px;
+	z-index: 1;
+}
+#CB-Cluni{
+	position:absolute;
+	left:473px;
+	top:668px;
+	z-index: 1;
+}
+#CB-AIT{
+	position:absolute;
+	left:795px;
+	top:668px;
+	z-index: 1;
+}
+#bloque-de-formulario-1{
+	position:absolute;
+	top:65px;
+	left:15px
+}
+#Lnea_f_Formulario_1 {
+	fill: transparent;
+	stroke: black;
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Lnea_f_Formulario_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1400px;
+	height: 10px;
+	left: 50.5px;
+	top: 760.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+
+/*FORMULARIO 2*/
+#Temtica_de_accin_Formulario_2 {
+	left: 50px;
+	top: 50px;
+	position: absolute;
+	overflow: visible;
+	width: 210px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+}
+#ID1-_Arte_y_cultura_Formulario_2 {
+	left: 180px;
+	top: 107px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_1_Formulario_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_1_Formulario_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 111px;
+	left: 177px;
+	top: 142px;
+}
+#ID2-_Asistencia_social_y_atenc_Formulario_2 {
+	left: 546px;
+	top: 107px;
+	position: absolute;
+	overflow: visible;
+	width: 297px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_2_Formulario_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_2_Formulario_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 111px;
+	left: 539px;
+	top: 140px;
+}
+#ID3-_Deporte_y_recreacin_Formulario_2 {
+	left: 908px;
+	top: 107px;
+	position: absolute;
+	overflow: visible;
+	width: 171px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_3_Formulario_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_3_Formulario_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 111px;
+	left: 901px;
+	top: 140px;
+}
+#ID4-_Derechos_humanos_y_civile_Formulario_2 {
+	left: 180px;
+	top: 213px;
+	position: absolute;
+	overflow: visible;
+	width: 218px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_4_Formulario_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_4_Formulario_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 111px;
+	left: 177px;
+	top: 248px;
+}
+#ID5-_Desarrollo_social_y_econm_Formulario_2 {
+	left: 546px;
+	top: 213px;
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_5_Formulario_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_5_Formulario_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 111px;
+	left: 539px;
+	top: 248px;
+}
+#ID6-_Educacin_Formulario_2 {
+	left: 908px;
+	top: 213px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_6_Formulario_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_6_Formulario_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 111px;
+	left: 901px;
+	top: 248px;
+}
+#ID7-_Filantropa_y_voluntariado_Formulario_2 {
+	left: 180px;
+	top: 313px;
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_7_Formulario_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_7_Formulario_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 111px;
+	left: 177px;
+	top: 348px;
+}
+#ID8-_Investigacin_Formulario_2 {
+	left: 546px;
+	top: 313px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+
+#ID9-_Medio_ambiente_y_protecci_Formulario_2 {
+	left: 908px;
+	top: 313px;
+	position: absolute;
+	overflow: visible;
+	width: 263px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+#Rectngulo_9_Formulario_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_9_Formulario_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 111px;
+	left: 901px;
+	top: 346px;
+}
+#Formulario_2{
+	position:absolute;
+	top:780px;
+}
+#Rectngulo_8_Formulario_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_8_Formulario_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 111px;
+	left: 539px;
+	top: 346px;
+}
+#Select-1{
+	width: 250px;
+	border:solid 1px transparent;
+	background-color: transparent;
+	position:absolute;
+	top: 925px;
+	left:205px;
+	z-index: 1;
+}
+#Select-2{
+	width: 250px;
+	border:solid 1px transparent;
+	background-color: transparent;
+	position:absolute;
+	top: 924px;
+	left:567px;
+	z-index: 1;
+}
+#Select-3{
+	width: 250px;
+	border:solid 1px transparent;
+	background-color: transparent;
+	position:absolute;
+	top: 924px;
+	left:930px;
+	z-index: 1;
+}
+#Select-4{
+	width: 250px;
+	border:solid 1px transparent;
+	background-color: transparent;
+	position:absolute;
+	top: 1031px;
+	left:205px;
+	z-index: 1;
+}
+#Select-5{
+	width: 250px;
+	border:solid 1px transparent;
+	background-color: transparent;
+	position:absolute;
+	top: 1031px;
+	left:567px;
+	z-index: 1;
+}
+#Select-6{
+	width: 250px;
+	border:solid 1px transparent;
+	background-color: transparent;
+	position:absolute;
+	top: 1031px;
+	left:930px;
+	z-index: 1;
+}
+#Select-7{
+	width: 250px;
+	border:solid 1px transparent;
+	background-color: transparent;
+	position:absolute;
+	top: 1131px;
+	left:205px;
+	z-index: 1;
+}
+#Select-8{
+	width: 250px;
+	border:solid 1px transparent;
+	background-color: transparent;
+	position:absolute;
+	top: 1129px;
+	left:567px;
+	z-index: 1;
+}
+#Select-9{
+	width: 250px;
+	border:solid 1px transparent;
+	background-color: transparent;
+	position:absolute;
+	top: 1129px;
+	left:930px;
+	z-index: 1;
+}

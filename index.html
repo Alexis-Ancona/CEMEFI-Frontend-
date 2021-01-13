@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indice</title>
+ <!--Import Materialize-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ <!--Import my stylesheet-->
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="index.css"/>
+ <!--Import Nunito Font-->
+<link rel="stylesheet" href="https://use.typekit.net/boy1yil.css">
+ <!--Import Google Icon Font-->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+<div id="index">
+	<a href="#">
+	<img id="logo_cemefi" src="/img/logo_cemefi.png" srcset="/img/logo_cemefi.png 1x, /img/logo_cemefi@2x.png 2x"></a>
+	<div id='formulario' class="row" style='z-index: 1;'>
+		<div class="input-field col s8">
+			<div class='search'>
+				<!--Text input del search box-->
+		  <input style = 'color:#8B8B8B; border: solid 2px #E8E8E8; font-family: nunito;' placeholder="Inserte alguna palabra o frase que desee buscar en los campos" id="first_name" type="text" class="validate"></div>
+		</div>
+	</div>
+	<div id="Inicio">
+		<a class='navtab' href="#"><span>Inicio</span></a>
+	</div>
+	<div id="Estadsticas">
+		<a class='navtab' href="#"><span>Estadísticas</span></a>
+	</div>
+	<div id="Iniciar_Sesin">
+		<a class='navtab' href="#"><span>Iniciar Sesión</span></a>
+	</div>
+	<!--Search box-->
+	<svg class="Rectngulo_1">
+		<rect id="Rectngulo_1" rx="34" ry="34" x="0" y="0" width="596" height="68">
+		</rect>
+	</svg>
+	<!--icono lupa searchbox de arriba a la derecha-->
+	<a href="#"><img id="search-icon" style='z-index: 2;' src="/img/search-icon.png" srcset="/img/search-icon.png 1x, /img/search-icon@2x.png 2x"></a>
+
+	<svg class="Elipse_1">
+		<ellipse id="Elipse_1" rx="27.729999542236328" ry="27.729999542236328" cx="27.729999542236328" cy="27.729999542236328">
+		</ellipse>
+	</svg>
+	<!--Link del icono de mensaje-->
+	<a href="#"><img id="outline_mail_outline_white_18d" style='z-index: 2;' src="/img/outline_mail_outline_white_18d.png" srcset="/img/outline_mail_outline_white_18d.png 1x, /img/outline_mail_outline_white_18d@2x.png 2x"></a>
+
+	<div id="Directorio_de_Instituciones_Fi">
+		<span>Directorio de Instituciones Filantrópicas</span>
+	</div>
+	<div id="Llene_los_campos_con_la_inform">
+		<span style='color: #696969'>Llene los campos con la información que conozca de la organización que desea buscar</span>
+	</div>
+	<div id="ORGANIZACIONES_DE_LA_SOCIEDAD_">
+		<span>ORGANIZACIONES DE LA SOCIEDAD CIVIL REGISTRADAS EN MÉXICO: 45,817</span>
+	</div>
+	<img id="chart" src="/img/chart.png" srcset="/img/chart.png 1x, /img/chart@2x.png 2x">
+	<!--Este rectángulo es el del formulario de la página principal (el que está en medio de la página)-->	
+	<svg class="Rectngulo_2">
+		<rect id="Rectngulo_2" rx="50" ry="50" x="0" y="0" width="1591" height="114">
+		</rect>
+	</svg>
+	<!--Nombre de los apartados del formulario pagina principal-->
+	<div id="Ms_Criterios">
+		<span>Más Criterios</span>
+	</div>
+	<div id="Nombre">
+		<span>Nombre</span>
+	</div>
+	<div id="RFC">
+		<span>RFC</span>
+	</div>
+	<div id="Ubicacin">
+		<span>Ubicación</span>
+	</div>
+	<!--Campo de texto Nombre-->
+	<div id='formulario_nombre' class="row" style='z-index: 1;'>
+		<div class="input-field col s4">
+		  <input style = 'color:#8B8B8B; font-size: 20px; border:solid white 1px; font-family: nunito;' placeholder="Nombre de la organización" id="first_name2" type="text" class="validate">
+		</div>
+	</div>
+	<!--Campo de texto RFC-->
+	<div id='formulario_RFC' class="row" style='z-index: 1;'>
+		<div class="input-field col s4">
+		  <input style = 'color:#8B8B8B; border:solid white 1px;font-size: 20px; font-family: nunito;' placeholder="Registro Federal del Contribuyente" id="first_name2" type="text" class="validate">
+		</div>
+	</div>
+	<!--Campo de texto ubicación-->
+	<div id='formulario_Ubicacion' class="row" style='z-index: 1;'>
+		<div class="input-field col s4">
+		  <input style = 'color:#8B8B8B;font-size: 20px; border:solid white 1px;font-size: 20px; font-family: nunito;' placeholder="Edo Alcalda o mpio" id="first_name2" type="text" class="validate">
+		</div>
+	</div>
+	<!--Botón para más criterios de búsqueda (abre el modal)-->
+	<div class="Ms_Criterios_de_Bsqueda">
+		<button data-target="modal1" class='btn-flat modal-trigger transparent grey-text no-uppercase'><span style='font-family: nunito; font-size: 20px; color:#cecece; font-family:nunito'>Más criterios de búsqueda</span> </button>
+	</div>
+	<!--COMIENZA EL MODAL-->
+	<div id="modal1" class='modal modal-fixed-footer'>
+        <div class="modal-content">
+			<!--Row para el título-->
+			<div class="row">
+				<div class="col s3" style='background-color:white;'>
+					<a href="" class='btn-flat transparent'>
+						<span style='font-size: 30px; font-family: nunito;'>X</span>
+					</a>
+				</div>
+				<div class="col s6" style='background-color:white; text-align:center;'>
+					<span id='Model-Header-Title'>Más criterios de búsqueda</span>
+				</div>
+			</div> <!--Termina el header-->
+			<!--Línea que separa el título del cuerpo-->
+			<div>
+				<hr style="height:2px;width:100%;color:gray;background-color:gray">
+				<!--Comienza el cuerpo-->
+				<div id="Siglas_Formulario_1">
+					<span>Siglas</span>
+				</div>
+			<svg class="Rectngulo_1_Formulario_1">
+				<rect id="Rectngulo_1_Formulario_1" rx="20" ry="20" x="0" y="0" width="570" height="74">
+				</rect>
+			</svg>
+			<input placeholder="" id="Siglas" type="text" class="validate">
+			<!--Termina la sigla, su box y el text input-->
+			<div id="Figura_Jurdica_Formulario_1">
+				<span>Figura Jurídica</span>
+			</div>
+			<select class="browser-default" id='Select-FiguraJuridica'>
+				<option value="" disabled selected></option>
+				<option value="1">Option 1</option>
+				<option value="2">Option 2</option>
+				<option value="3">Option 3</option>
+			</select>
+			<svg class="Rectngulo_3_Formulario_1">
+				<rect id="Rectngulo_3_Formulario_1" rx="20" ry="20" x="0" y="0" width="570" height="74">
+				</rect>
+			</svg>
+			<!--Termina la fiura juridica, su box y el select-->
+			<div id="Naturaleza_de_la_insitucin_Formulario_1">
+				<span>Naturaleza de la insitución</span>
+			</div>
+			<select class="browser-default" id='Select-Naturaleza'>
+				<option value="" disabled selected></option>
+				<option value="1">Option 1</option>
+				<option value="2">Option 2</option>
+				<option value="3">Option 3</option>
+			</select>
+			<svg class="Rectngulo_4_Formulario_1">
+				<rect id="Rectngulo_4_Formulario_1" rx="20" ry="20" x="0" y="0" width="570" height="74">
+				</rect>
+			</svg>
+			<!--Termina Naturaleza, su box y select-->
+			<div id="Tipo_de_donante_Formulario_1">
+				<span>Tipo de donante</span>
+			</div>
+			<select class="browser-default" id='Select-Donante'>
+				<option value="" disabled selected></option>
+				<option value="1">Option 1</option>
+				<option value="2">Option 2</option>
+				<option value="3">Option 3</option>
+			</select>
+			<svg class="Rectngulo_5_Formulario_1">
+				<rect id="Rectngulo_5_Formulario_1" rx="20" ry="20" x="0" y="0" width="570" height="74">
+				</rect>
+			</svg>
+			<svg class="Lnea_1_Formulario_1" viewBox="0 0 1246 2">
+				<path id="Lnea_1_Formulario_1" d="M 0 0 L 1246 2">
+				</path>
+			</svg>
+			<!--SEGUNDA PARTE DEL MODAL-->
+			<!--1.- Nombre-->
+			<div id="Forma_parte_del__Cemefi_Socio_Formulario_1">
+				<span>Forma parte del <br/>Cemefi: Socio</span>
+			</div>
+			<!--1.- Checkbox "Forma parte del Cemefi"-->
+			<div class="row">
+				<div class="col s2" id='CB-Cemefi'>
+					<form action="#">
+						<p>
+						  <label>
+							<input type="checkbox" class="mod filled-in"/>
+							<span class='CB-Texto'></span>
+						  </label>
+						</p>
+				</div>
+				<!--bloque de nombres y rectángulos Formulario 1-->
+				<div id='bloque-de-formulario-1'>
+					<svg class="Rectngulo_6_Formulario_1">
+						<rect id="Rectngulo_6_Formulario_1" rx="10" ry="10" x="0" y="0" width="48" height="48">
+						</rect>
+					</svg>
+					<div id="Forma_parte_del_Cemefi_Afiliad_Formulario_1">
+						<span>Forma parte del<br/>Cemefi: Afiliado</span>
+					</div>
+					<svg class="Rectngulo_7_Formulario_1">
+						<rect id="Rectngulo_7_Formulario_1" rx="10" ry="10" x="0" y="0" width="48" height="48">
+						</rect>
+					</svg>
+					<div id="No_forma_parte_del_Cemefi_Formulario_1">
+						<span>No forma parte del Cemefi</span>
+					</div>
+					<svg class="Rectngulo_8_Formulario_1">
+						<rect id="Rectngulo_8_Formulario_1" rx="10" ry="10" x="0" y="0" width="48" height="48">
+						</rect>
+					</svg>
+					<div id="Donataria_Autorizada_Formulario_1">
+						<span>Donataria Autorizada</span>
+					</div>
+					<svg class="Rectngulo_9_Formulario_1">
+						<rect id="Rectngulo_9_Formulario_1" rx="10" ry="10" x="0" y="0" width="48" height="48">
+						</rect>
+					</svg>
+					<div id="Cuenta_con_Cluni_Formulario_1">
+						<span>Cuenta con Cluni</span>
+					</div>
+					<svg class="Rectngulo_10_Formulario_1">
+						<rect id="Rectngulo_10_Formulario_1" rx="10" ry="10" x="0" y="0" width="48" height="48">
+						</rect>
+					</svg>
+					<div id="Acreditacin_en_Institucionalid_Formulario_1">
+						<span>Acreditación en Institucionalidad<br/>y Transparencia (AIT)</span>
+					</div>
+				</div>
+				<!--Checkbox "Afiliado"-->
+				<div class="col s2" id='CB-Afiliado'> 
+					<form action="#">
+						<p>
+						  <label>
+							<input type="checkbox" class="mod filled-in" />
+							<span></span>
+						  </label>
+						</p>
+				</div>
+
+				<!--Checkbox "No Forma parte del CEMEFI"-->
+				<div class="col s2" id='CB-No-Cemefi'> 
+					<form action="#">
+						<p>
+						  <label>
+							<input type="checkbox" class="mod filled-in" />
+							<span></span>
+						  </label>
+						</p>
+				</div>
+				<!--Checkbox "Donataria Autorizada"-->
+				<div class="col s2" id='CB-Donataria'> 
+					<form action="#">
+						<p>
+						  <label>
+							<input type="checkbox" class="mod filled-in" />
+							<span></span>
+						  </label>
+						</p>
+				</div>
+				<!--Checkbox "Cuenta con Cluni"-->
+				<div class="col s2" id='CB-Cluni'> 
+					<form action="#">
+						<p>
+						  <label>
+							<input type="checkbox" class="mod filled-in" />
+							<span></span>
+						  </label>
+						</p>
+				</div>
+				<!--Checkbox "AIT"-->
+				<div class="col s2" id='CB-AIT'> 
+					<form action="#">
+						<p>
+						  <label>
+							<input type="checkbox" class="mod filled-in" />
+							<span></span>
+						  </label>
+						</p>
+				</div>
+			</div>
+			<!--1.- Rectángulo "Socio"-->
+			<svg class="Rectngulo_2_Formulario_1">
+				<rect id="Rectngulo_2_Formulario_1" rx="10" ry="10" x="0" y="0" width="48" height="48">
+				</rect>
+			</svg>
+			<svg class="Lnea_f_Formulario_1" viewBox="0 0 1246 2">
+				<path id="Lnea_f_Formulario_1" d="M 0 0 L 1246 2">
+				</path>
+			</svg>
+		</div>
+		<!--COSAS DEL FORMULARIO 2-->
+		<div id='Formulario_2'>
+			<div id="Temtica_de_accin_Formulario_2">
+				<span>Temática de acción</span>
+			</div>
+			<div id="ID1-_Arte_y_cultura_Formulario_2">
+				<span>1.- Arte y cultura</span>
+			</div>
+			<svg class="Rectngulo_1_Formulario_2">
+				<rect id="Rectngulo_1_Formulario_2" rx="10" ry="10" x="0" y="0" width="259" height="51">
+				</rect>
+			</svg>
+			<div id="ID2-_Asistencia_social_y_atenc_Formulario_2">
+				<span>2.- Asistencia social y atención a desastres</span>
+			</div>
+			<svg class="Rectngulo_2_Formulario_2">
+				<rect id="Rectngulo_2_Formulario_2" rx="10" ry="10" x="0" y="0" width="259" height="51">
+				</rect>
+			</svg>
+			<div id="ID3-_Deporte_y_recreacin_Formulario_2">
+				<span>3.- Deporte y recreación</span>
+			</div>
+			<svg class="Rectngulo_3_Formulario_2">
+				<rect id="Rectngulo_3_Formulario_2" rx="10" ry="10" x="0" y="0" width="259" height="51">
+				</rect>
+			</svg>
+			<div id="ID4-_Derechos_humanos_y_civile_Formulario_2">
+				<span>4.- Derechos humanos y civiles</span>
+			</div>
+			<svg class="Rectngulo_4_Formulario_2">
+				<rect id="Rectngulo_4_Formulario_2" rx="10" ry="10" x="0" y="0" width="259" height="51">
+				</rect>
+			</svg>
+			<div id="ID5-_Desarrollo_social_y_econm_Formulario_2">
+				<span>5.- Desarrollo social y económico</span>
+			</div>
+			<svg class="Rectngulo_5_Formulario_2">
+				<rect id="Rectngulo_5_Formulario_2" rx="10" ry="10" x="0" y="0" width="259" height="51">
+				</rect>
+			</svg>
+			<div id="ID6-_Educacin_Formulario_2">
+				<span>6.- Educación</span>
+			</div>
+			<svg class="Rectngulo_6_Formulario_2">
+				<rect id="Rectngulo_6_Formulario_2" rx="10" ry="10" x="0" y="0" width="259" height="51">
+				</rect>
+			</svg>
+			<div id="ID7-_Filantropa_y_voluntariado_Formulario_2">
+				<span>7.- Filantropía y voluntariado</span>
+			</div>
+			<svg class="Rectngulo_7_Formulario_2">
+				<rect id="Rectngulo_7_Formulario_2" rx="10" ry="10" x="0" y="0" width="259" height="51">
+				</rect>
+			</svg>
+			<div id="ID8-_Investigacin_Formulario_2">
+				<span>8.- Investigación</span>
+			</div>
+			<svg class="Rectngulo_8_Formulario_2">
+				<rect id="Rectngulo_8_Formulario_2" rx="10" ry="10" x="0" y="0" width="259" height="51">
+				</rect>
+			</svg>
+			<div id="ID9-_Medio_ambiente_y_protecci_Formulario_2">
+				<span>9.- Medio ambiente y protección civil</span>
+			</div>
+			<svg class="Rectngulo_9_Formulario_2">
+				<rect id="Rectngulo_9_Formulario_2" rx="10" ry="10" x="0" y="0" width="259" height="51">
+				</rect>
+			</svg>
+		
+		</div>
+		<!--AÑADIR COSAS PARA AÑADIR ESPACIO DENTRO DEL MODAL-->
+		<div class='container section' style='background-color: transparent; height: 300px;'></div>
+		<!--Añadir Select a los 9 campos-->
+		<select class="browser-default" id='Select-1'>
+			<option value="" disabled selected></option>
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+		</select>
+		<select class="browser-default" id='Select-2'>
+			<option value="" disabled selected></option>
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+		</select>
+		<select class="browser-default" id='Select-3'>
+			<option value="" disabled selected></option>
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+		</select>
+		<select class="browser-default" id='Select-4'>
+			<option value="" disabled selected></option>
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+		</select>
+		<select class="browser-default" id='Select-5'>
+			<option value="" disabled selected></option>
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+		</select>
+		<select class="browser-default" id='Select-6'>
+			<option value="" disabled selected></option>
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+		</select>
+		<select class="browser-default" id='Select-7'>
+			<option value="" disabled selected></option>
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+		</select>
+		<select class="browser-default" id='Select-8'>
+			<option value="" disabled selected></option>
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+		</select>
+		<select class="browser-default" id='Select-9'>
+			<option value="" disabled selected></option>
+			<option value="1">Option 1</option>
+			<option value="2">Option 2</option>
+			<option value="3">Option 3</option>
+		</select>
+
+	</div>
+			<!--Boton de cerrar modal-->
+			<div class="modal-footer" id='hacergrande'>
+<!--NOMBRE DE LA SEGUNDA PÁGINA EN HREF-->
+            	<a href="/Segunda_pagina.html" class='btn modal-close right' id='Modal-Footer-Close-Button'><span id='letragrande'>Mostrar resultados</span> </a>
+			</div> 
+        	
+		</div> 
+	
+	<!--Anchor for Más Criterios-->
+	<a href=""><svg class="Elipse_2">
+		<ellipse id="Elipse_2" rx="43" ry="43" cx="43" cy="43">
+		</ellipse>
+	</svg></a>
+	<a href="#"><img id="search-icon-white" src="/img/search-icon-white.png" srcset="/img/search-icon-white.png 1x, /img/search-icon-white@2x.png 2x"></a>
+	<!--líneas verticales que dividen el formulario de enmedio-->	
+	<svg class="Lnea_1" viewBox="0 0 1 69" style ='overflow: visible;'>
+		<path id="Lnea_1"  d="M 0 0 L 0 69">
+		</path>
+	</svg>
+	<svg class="Lnea_2" viewBox="0 0 1 69" style ='overflow: visible;'>
+		<path id="Lnea_2" d="M 0 0 L 0 69">
+		</path>
+	</svg>
+	<svg class="Lnea_3" viewBox="0 0 1 69" style ='overflow: visible;'>
+		<path id="Lnea_3" d="M 0 0 L 0 69">
+		</path>
+	</svg>
+	<div id="Si_su_organizacin_no_aparece_e">
+		<span>Si su organización no aparece en este directorio, le invitamos a llenar su pre-registro . Si tiene problemas para ingresar comuníquese con Julio Casas al teléfono<br/> 5552768530, extensión 151 o envíe un correo a: directorios@cemefi.org.</span>
+	</div>
+	<div id="Aviso_de_privacidad">
+		<a href="#"><span style='border-bottom:solid 1px white; color:white'>Aviso de privacidad</span></a>
+	</div>
+	<div id="Preguntas_Frecuentes">
+		<a href="#"><span style='border-bottom:solid 1px white; color:white'>Preguntas frecuentes</span></a>
+	</div>
+	<div id="_Cemefi_2021">
+		<span>© Cemefi 2021</span>
+	</div>
+	<!--Waves generadas con svg y con la gradiente de color-->
+	<svg class="waves_bb" viewBox="-0.27 24.279 1126 393.423">
+		<linearGradient id="waves_bb" spreadMethod="pad" x1="0" x2="1" y1="0" y2="0">
+			<stop offset="0" stop-color="#dd9b27" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#ec8213" stop-opacity="1"></stop>
+		</linearGradient>
+		<path id="waves_bb" d="M -0.2700000405311584 417.7027282714844 C 536.8338623046875 -407.7502136230469 789.221923828125 353.4774475097656 1125.72998046875 158.1990509033203 L 1123.58935546875 401.6261291503906 L -0.2700000405311584 401.7027587890625 L -0.2700000405311584 417.7027282714844 Z">
+		</path>
+	</svg>
+	<svg class="waves2_bd" viewBox="-1.41 11.824 1316.229 365.352">
+		<linearGradient id="waves2_bd" spreadMethod="pad" x1="0" x2="1" y1="0" y2="0">
+			<stop offset="0.7" stop-color="#ec8213" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#e6682e" stop-opacity="1"></stop>
+		</linearGradient>
+		<path id="waves2_bd" d="M -1.409999966621399 52.31863021850586 C 300.0684204101563 -122.243896484375 570.8880004882813 337.638427734375 1314.819458007813 117.9168701171875 L 1314.819458007813 377.17578125 L -1.409999966621399 377.17578125 L -1.409999966621399 52.31863021850586 Z">
+		</path>
+	</svg>
+	<svg class="waves3_bf" viewBox="372.434 89.198 603.77 278.778">
+		<linearGradient id="waves3_bf" spreadMethod="pad" x1="0" x2="1" y1="0" y2="0">
+			<stop offset="0" stop-color="#e6682e" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#e6512e" stop-opacity="1"></stop>
+		</linearGradient>
+		<path id="waves3_bf" d="M 976.2044677734375 181.2539672851563 C 926.392578125 125.0462036132813 627.9246826171875 50.9539794921875 372.4344787597656 112.2716674804688 L 372.4344787597656 367.9756164550781 L 976.2044677734375 367.9756164550781 L 976.2044677734375 181.2539672851563 Z">
+		</path>
+	</svg>
+</div>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.modal');
+		var instances = M.Modal.init(elems);
+	});
+</script>
+<script>
+	  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems);
+  });
+</script>
+
+</body>
+</html>

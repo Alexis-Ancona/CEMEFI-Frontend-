@@ -1,0 +1,1779 @@
+.mediaViewInfo {
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1920__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Web_1920__1 {
+	position: absolute;
+	width: 1920px;
+	height: 2366px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#formulario{
+	margin-left: 1130px;
+	margin-top: 90px;
+	width: 715px;
+	z-index: 1;
+	position:relative;
+}
+
+.navtab {
+	/* color: black; */
+	text-decoration: none;
+	color:#000000;
+}
+#logo_cemefi {
+	position: absolute;
+	width: 197px;
+	height: 142px;
+	left: 185px;
+	top: 59px;
+	overflow: visible;
+}
+#Inicio {
+	left: 534px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	line-height: 34px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.0125px;
+	border-bottom: #E88A19 solid 1px;
+}
+#Estadsticas {
+	left: 664px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	line-height: 34px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.0125px;
+}
+#Iniciar_Sesin {
+	left: 862px;
+	top: 114px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	line-height: 34px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: nunito, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(112,112,112,1);
+	letter-spacing: 0.0125px;
+}
+#Rectngulo_1 {
+	fill: rgba(232,232,232,1);
+	z-index: -1;
+}
+.Rectngulo_1 {
+	position: absolute;
+	overflow: visible;
+	width: 596px;
+	height: 68px;
+	left: 1060px;
+	top: 96px;
+}
+#search-icon {
+	position: absolute;
+	width: 41.36px;
+	height: 41.36px;
+	left: 1078.76px;
+	top: 108.94px;
+	overflow: visible;
+}
+#Elipse_1 {
+	fill: rgba(234,133,22,1);
+}
+.Elipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 55.46px;
+	height: 55.46px;
+	left: 1676.54px;
+	top: 102px;
+}
+#outline_mail_outline_white_18d {
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	left: 1688px;
+	top: 114px;
+	overflow: visible;
+}
+#Aviso_de_privacidad {
+	left: 79.891px;
+	top: 2208.986px;
+	position: absolute;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: white;
+	text-decoration: white !important;
+	z-index: 1;
+}
+#Preguntas_Frecuentes {
+	left: 79.877px;
+	top: 2248.986px;
+	position: absolute;
+	overflow: visible;
+	width: 197px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	z-index: 1;
+}
+#_Cemefi_2021 {
+	left: 79.916px;
+	top: 2288.986px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito, sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	z-index: 1;
+}
+#waves_s {
+	fill: url(#waves_s);
+}
+.waves_s {
+	overflow: visible;
+	position: absolute;
+	width: 1126px;
+	height: 312.11px;
+	left: 794px;
+	top: 2074.89px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#waves2_u {
+	opacity: 0.71;
+	fill: url(#waves2_u);
+}
+.waves2_u {
+	overflow: visible;
+	position: absolute;
+	width: 1316.229px;
+	height: 284.038px;
+	left: 0px;
+	top: 2080.962px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#waves3_w {
+	opacity: 0.7;
+	fill: url(#waves3_w);
+}
+.waves3_w {
+	overflow: visible;
+	position: absolute;
+	width: 603.77px;
+	height: 223.93px;
+	left: 1316.23px;
+	top: 2144.07px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_REGRESAR {
+	left: 185px;
+	top: 262px;
+	position: absolute;
+	overflow: visible;
+	width: 125px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(241,158,96,1);
+	letter-spacing: 0.02px;
+}
+#Resultados_de_bsqueda {
+	left: 185px;
+	top: 303px;
+	position: absolute;
+	overflow: visible;
+	width: 543px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#Se_encontraron_40_resultados {
+	left: 185px;
+	top: 383px;
+	position: absolute;
+	overflow: visible;
+	width: 259px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(105,105,105,1);
+}
+#Elipse_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 1606px;
+	top: 312px;
+}
+#Elipse_3 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 1671px;
+	top: 312px;
+}
+#baseline_navigate_before_black {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 1613px;
+	top: 319px;
+	overflow: visible;
+}
+#baseline_navigate_next_black_1 {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 1678px;
+	top: 319px;
+	overflow: visible;
+}
+#Rectngulo_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectngulo_2 {
+	position: absolute;
+	overflow: visible;
+	width: 200px;
+	height: 62px;
+	left: 1127px;
+	top: 394px;
+}
+#Rectngulo_3 {
+	fill: rgba(133,213,149,1);
+}
+.Rectngulo_3 {
+	position: absolute;
+	overflow: visible;
+	width: 200px;
+	height: 62px;
+	left: 1349px;
+	top: 393px;
+}
+#Mapa {
+	left: 1207px;
+	top: 412px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: 2.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(105,105,105,1);
+}
+#Descargar {
+	left: 1421px;
+	top: 410px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#maps {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1157px;
+	top: 403px;
+	overflow: visible;
+}
+#icons8-microsoft-excel-512 {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 1368px;
+	top: 400px;
+	overflow: visible;
+}
+#pdf {
+	position: absolute;
+	width: 207px;
+	height: 79px;
+	left: 1568px;
+	top: 382px;
+	overflow: visible;
+}
+#Razn_social {
+	left: 355px;
+	top: 510px;
+	position: absolute;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#Ubicacin {
+	left: 643px;
+	top: 510px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#Direccin {
+	left: 947px;
+	top: 510px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#Telfono {
+	left: 1261px;
+	top: 510px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#Correo_electrnico {
+	left: 1480px;
+	top: 510px;
+	position: absolute;
+	overflow: visible;
+	width: 219px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.02px;
+}
+#Lnea_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Lnea_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1524px;
+	height: 1px;
+	left: 208.5px;
+	top: 577.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectngulo_4 {
+	fill: rgba(134,97,219,1);
+}
+.Rectngulo_4 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	height: 106px;
+	left: 193px;
+	top: 654px;
+}
+#Rectngulo_5 {
+	fill: rgba(97,200,219,1);
+}
+.Rectngulo_5 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	height: 106px;
+	left: 193px;
+	top: 787px;
+}
+#Rectngulo_6 {
+	fill: rgba(186,219,97,1);
+}
+.Rectngulo_6 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	height: 106px;
+	left: 193px;
+	top: 920px;
+}
+#Rectngulo_7 {
+	fill: rgba(213,199,35,1);
+}
+.Rectngulo_7 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	height: 106px;
+	left: 193px;
+	top: 1053px;
+}
+#Rectngulo_8 {
+	fill: rgba(219,97,97,1);
+}
+.Rectngulo_8 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	height: 106px;
+	left: 193px;
+	top: 1186px;
+}
+#Asistencia_social_y_atencin_a_ {
+	left: 212px;
+	top: 670px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	line-height: 14px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.02px;
+}
+#Arte_y_cultura {
+	left: 207px;
+	top: 823px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	line-height: 14px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.02px;
+}
+#Investigacin {
+	left: 208px;
+	top: 957px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	line-height: 14px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.02px;
+}
+#Medio_ambiente_y_proteccin_ani {
+	left: 208px;
+	top: 1069px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	line-height: 14px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.02px;
+}
+#Educacin {
+	left: 215px;
+	top: 1223px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	line-height: 14px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.02px;
+}
+#Rectngulo_9 {
+	fill: rgba(134,97,219,1);
+}
+.Rectngulo_9 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	height: 106px;
+	left: 193px;
+	top: 1324px;
+}
+#Rectngulo_10 {
+	fill: rgba(97,200,219,1);
+}
+.Rectngulo_10 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	height: 106px;
+	left: 193px;
+	top: 1457px;
+}
+#Rectngulo_11 {
+	fill: rgba(186,219,97,1);
+}
+.Rectngulo_11 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	height: 106px;
+	left: 193px;
+	top: 1590px;
+}
+#Rectngulo_12 {
+	fill: rgba(213,199,35,1);
+}
+.Rectngulo_12 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	height: 106px;
+	left: 193px;
+	top: 1723px;
+}
+#Rectngulo_13 {
+	fill: rgba(219,97,97,1);
+}
+.Rectngulo_13 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	height: 106px;
+	left: 193px;
+	top: 1856px;
+}
+#Asistencia_social_y_atencin_a__bw {
+	left: 212px;
+	top: 1340px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	line-height: 14px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.02px;
+}
+#Arte_y_cultura_bx {
+	left: 207px;
+	top: 1493px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	line-height: 14px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.02px;
+}
+#Investigacin_by {
+	left: 208px;
+	top: 1627px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	line-height: 14px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.02px;
+}
+#Medio_ambiente_y_proteccin_ani_bz {
+	left: 208px;
+	top: 1739px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	line-height: 14px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.02px;
+}
+#Educacin_b {
+	left: 215px;
+	top: 1893px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	line-height: 14px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.02px;
+}
+#Banco_de_Alimentos_de_Caritas_ {
+	left: 332px;
+	top: 671px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Ensenada_Baja_California {
+	left: 633px;
+	top: 671px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Morelos_164_Primera_Seccin_Mer {
+	left: 854px;
+	top: 671px;
+	position: absolute;
+	overflow: visible;
+	width: 331px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID55_57142243_5557142244 {
+	left: 1249px;
+	top: 671px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#contactobancodealimentoscom_so {
+	left: 1463px;
+	top: 670px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Banco_de_Alimentos_de_Caritas__b {
+	left: 332px;
+	top: 804px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Ensenada_Baja_California_b {
+	left: 633px;
+	top: 804px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Morelos_164_Primera_Seccin_Mer_b {
+	left: 854px;
+	top: 804px;
+	position: absolute;
+	overflow: visible;
+	width: 331px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID55_57142243_5557142244_b {
+	left: 1249px;
+	top: 804px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#contactobancodealimentoscom_so_ca {
+	left: 1463px;
+	top: 803px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Banco_de_Alimentos_de_Caritas__cb {
+	left: 332px;
+	top: 936px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Ensenada_Baja_California_cc {
+	left: 633px;
+	top: 936px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Morelos_164_Primera_Seccin_Mer_cd {
+	left: 854px;
+	top: 936px;
+	position: absolute;
+	overflow: visible;
+	width: 331px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID55_57142243_5557142244_ce {
+	left: 1249px;
+	top: 936px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#contactobancodealimentoscom_so_cf {
+	left: 1463px;
+	top: 935px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Banco_de_Alimentos_de_Caritas__cg {
+	left: 332px;
+	top: 1068px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Ensenada_Baja_California_ch {
+	left: 633px;
+	top: 1068px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Morelos_164_Primera_Seccin_Mer_ci {
+	left: 854px;
+	top: 1068px;
+	position: absolute;
+	overflow: visible;
+	width: 331px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID55_57142243_5557142244_cj {
+	left: 1249px;
+	top: 1068px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#contactobancodealimentoscom_so_ck {
+	left: 1463px;
+	top: 1067px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Banco_de_Alimentos_de_Caritas__cl {
+	left: 332px;
+	top: 1200px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Ensenada_Baja_California_cm {
+	left: 633px;
+	top: 1200px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Morelos_164_Primera_Seccin_Mer_cn {
+	left: 854px;
+	top: 1200px;
+	position: absolute;
+	overflow: visible;
+	width: 331px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID55_57142243_5557142244_co {
+	left: 1249px;
+	top: 1200px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#contactobancodealimentoscom_so_cp {
+	left: 1463px;
+	top: 1199px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Banco_de_Alimentos_de_Caritas__cq {
+	left: 332px;
+	top: 1332px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Ensenada_Baja_California_cr {
+	left: 633px;
+	top: 1332px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Morelos_164_Primera_Seccin_Mer_cs {
+	left: 854px;
+	top: 1332px;
+	position: absolute;
+	overflow: visible;
+	width: 331px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID55_57142243_5557142244_ct {
+	left: 1249px;
+	top: 1332px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#contactobancodealimentoscom_so_cu {
+	left: 1463px;
+	top: 1331px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Banco_de_Alimentos_de_Caritas__cv {
+	left: 332px;
+	top: 1464px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Ensenada_Baja_California_cw {
+	left: 633px;
+	top: 1464px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Morelos_164_Primera_Seccin_Mer_cx {
+	left: 854px;
+	top: 1464px;
+	position: absolute;
+	overflow: visible;
+	width: 331px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID55_57142243_5557142244_cy {
+	left: 1249px;
+	top: 1464px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#contactobancodealimentoscom_so_cz {
+	left: 1463px;
+	top: 1463px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Banco_de_Alimentos_de_Caritas__c {
+	left: 332px;
+	top: 1596px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Ensenada_Baja_California_c {
+	left: 633px;
+	top: 1596px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Morelos_164_Primera_Seccin_Mer_c {
+	left: 854px;
+	top: 1596px;
+	position: absolute;
+	overflow: visible;
+	width: 331px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID55_57142243_5557142244_c {
+	left: 1249px;
+	top: 1596px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#contactobancodealimentoscom_so_c {
+	left: 1463px;
+	top: 1595px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Banco_de_Alimentos_de_Caritas__da {
+	left: 332px;
+	top: 1728px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Ensenada_Baja_California_da {
+	left: 633px;
+	top: 1728px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Morelos_164_Primera_Seccin_Mer_da {
+	left: 854px;
+	top: 1728px;
+	position: absolute;
+	overflow: visible;
+	width: 331px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID55_57142243_5557142244_da {
+	left: 1249px;
+	top: 1728px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#contactobancodealimentoscom_so_da {
+	left: 1463px;
+	top: 1727px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Banco_de_Alimentos_de_Caritas__db {
+	left: 332px;
+	top: 1860px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Ensenada_Baja_California_db {
+	left: 633px;
+	top: 1860px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Morelos_164_Primera_Seccin_Mer_dc {
+	left: 854px;
+	top: 1860px;
+	position: absolute;
+	overflow: visible;
+	width: 331px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ID55_57142243_5557142244_dd {
+	left: 1249px;
+	top: 1860px;
+	position: absolute;
+	overflow: visible;
+	width: 127px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#contactobancodealimentoscom_so_de {
+	left: 1463px;
+	top: 1859px;
+	position: absolute;
+	overflow: visible;
+	width: 301px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Elipse_4 {
+	fill: rgba(255,255,255,1);
+	stroke: transparent;
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 1050px;
+	top: 1976px;
+}
+#Elipse_5 {
+	fill: rgba(0,0,0,1);
+	stroke: transparent;
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_5 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 748px;
+	top: 1976px;
+}
+#ID1 {
+	left: 766px;
+	top: 1990px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Elipse_6 {
+	fill: rgba(255,255,255,1);
+	stroke: transparent;
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_6 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 827px;
+	top: 1976px;
+}
+#Elipse_7 {
+	fill: rgba(255,255,255,1);
+	stroke: transparent;
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_7 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 906px;
+	top: 1976px;
+}
+#Elipse_8 {
+	fill: rgba(255,255,255,1);
+	stroke: transparent;
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_8 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 978px;
+	top: 1976px;
+}
+#Elipse_9 {
+	fill: rgba(255,255,255,1);
+	stroke: transparent;
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Elipse_9 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 50px;
+	left: 1122px;
+	top: 1976px;
+}
+#baseline_navigate_next_black_1_dm {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 1129px;
+	top: 1983px;
+	overflow: visible;
+}
+#ID2 {
+	left: 845px;
+	top: 1990px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#ID3 {
+	left: 922px;
+	top: 1990px;
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#ID15 {
+	left: 1060px;
+	top: 1990px;
+	position: absolute;
+	overflow: visible;
+	width: 27px;
+	white-space: nowrap;
+	line-height: 27px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#twotone_more_horiz_black_18dp {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 983px;
+	top: 1990px;
+	overflow: visible;
+}
